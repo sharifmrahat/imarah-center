@@ -8,3 +8,7 @@
 .carousel-caption > h1 {
   text-shadow: 2px 2px 4px #000000;
 }
+
+.special-plan {
+  border-radius: 26px;
+}
