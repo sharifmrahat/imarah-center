@@ -107,9 +107,24 @@
     <main>
 
         <!-- Booking -->
+
+
         <section class="container mx-auto mb-5 w-100 w-md-50 p-4 border border-primary shadow rounded-3" id="booking">
+
             <h1 class="text-center mb-3">Book For Upcomming Event</h1>
             <p class="text-center text-secondary mb-4">We will confirm your event schedule via email</p>
+            <div class="container  mb-4">
+                <div class="toast show align-items-center ms-auto border-1 border-primary" role="alert"
+                    aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body fw-bold">
+                            25% off until January 2022!
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="close"></button>
+                    </div>
+                </div>
+            </div>
             <div class="row row-cols-1 row-cols-sm-2 justify-content-center align-items-center">
                 <div class="col form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name">
@@ -143,6 +158,8 @@
                     <div class="btn btn btn-primary fs-5 fw-bold">Submit</div>
                 </div>
             </div>
+
+
         </section>
 
         <!-- Packages -->
@@ -371,9 +388,11 @@
 
 
     <!-- Bootstrap Js Bundle -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
