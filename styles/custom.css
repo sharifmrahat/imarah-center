@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Vollkorn&display=swap");
+
+.bg-imarah-card {
+  background-color: #f8efba;
+}
+
+.imarah-font-1 {
+  font-family: "Merriweather", serif;
+}
+
+.imarah-font-2 {
+  font-family: "Vollkorn", serif;
+}
+
 .carousel-item > img {
   height: 584px;
   opacity: 0.8;
